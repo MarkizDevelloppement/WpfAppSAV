@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfAppSAV.UI.NouveauClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppSAV.UI"
+        mc:Ignorable="d"
+        Title="NouveauClient" Height="450" Width="800">
+    <Grid>
+        <Label Content="Créer un nouveau client:" HorizontalAlignment="Left" Height="26" Margin="34,22,0,0" VerticalAlignment="Top" Width="156" FontFamily="Arial" FontWeight="Bold"/>
+        <Label Content="Nom:" HorizontalAlignment="Left" Margin="43,64,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NomTextbox" HorizontalAlignment="Left" Height="23" Margin="133,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Prénom:" HorizontalAlignment="Left" Margin="43,92,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Prénom" HorizontalAlignment="Left" Height="23" Margin="133,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ModelPhone:" HorizontalAlignment="Left" Margin="43,120,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ModelPhone" HorizontalAlignment="Left" Height="23" Margin="133,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.517,0.58"/>
+        <Label Content="Mobile:" HorizontalAlignment="Left" Margin="43,148,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Mobile" HorizontalAlignment="Left" Height="23" Margin="133,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="43,176,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Email" HorizontalAlignment="Left" Height="23" Margin="133,179,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Date reçue:" HorizontalAlignment="Left" Margin="43,204,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="DateRecue" HorizontalAlignment="Left" Height="23" Margin="133,207,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Descxription:" HorizontalAlignment="Left" Margin="43,235,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Descxription" HorizontalAlignment="Left" Height="23" Margin="133,238,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Statuts:" HorizontalAlignment="Left" Margin="43,266,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Statuts" HorizontalAlignment="Left" Height="23" Margin="133,269,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Prix réparation:" HorizontalAlignment="Left" Margin="43,297,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PrixReparation" HorizontalAlignment="Left" Height="23" Margin="133,300,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Enregistrer" HorizontalAlignment="Left" Margin="133,351,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>
